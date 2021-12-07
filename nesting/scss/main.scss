@@ -15,11 +15,29 @@
 
 //&
 //Parent Selector
+// .main{
+//     .container &{
+//         background-color: blue;
+//     }
+// & :hover{
+//     background-color: salmon;
+// }
+// }
+
 .main{
-    .container &{
-        background-color: blue;
+    & &-heading{
+        font-size: 2em;
+      
     }
-& :hover{
-    background-color: salmon;
+    & &-paragraph{
+        font-size: 1.4em;
+    }
 }
+.footer{
+    &&-heading{
+        font-size: 2em;
+    }
+    & &-paragraph{
+        font-size: 1em;
+    }
 }
