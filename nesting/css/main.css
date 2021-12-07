@@ -1,4 +1,8 @@
 .container .main {
   background-color: blue;
 }
+
+.main :hover {
+  background-color: salmon;
+}
 /*# sourceMappingURL=main.css.map */
