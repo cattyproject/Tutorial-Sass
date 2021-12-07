@@ -7,8 +7,16 @@
 //         font-size: 1.4em;
 //     }
 // }
-.main,footer{
-    h1,p{
-        letter-spacing: 1px;
+// .main,footer{
+//     h1,p{
+//         letter-spacing: 1px;
+//     }
+// }
+
+//&
+//Parent Selector
+.main{
+    .container &{
+        background-color: blue;
     }
 }
