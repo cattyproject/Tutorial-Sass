@@ -13,3 +13,11 @@
 //SCSS variabel
 $primary-color:blue;
 $secondary-color:pink;
+$color-text: white;
+
+body{
+    background-color: $primary-color;
+}
+h1{
+    color:$color-text;
+}
