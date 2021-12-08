@@ -1,12 +1,15 @@
 //CSS variable
-.root{
-    --primary-color: blue;
-    --secondary-color:pink;
-    --color-text:black;
-}
-body{
-    background-color: var(--primary-color);
-}
-h1{
-    color:var(--color-text)
-}
+// .root{
+//     --primary-color: blue;
+//     --secondary-color:pink;
+//     --color-text:black;
+// }
+// body{
+//     background-color: var(--primary-color);
+// }
+// h1{
+//     color:var(--color-text)
+// }
+//SCSS variabel
+$primary-color:blue;
+$secondary-color:pink;
