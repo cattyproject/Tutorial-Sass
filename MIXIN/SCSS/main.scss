@@ -32,16 +32,18 @@
 }
 
 //arguments pada mixin
-@mixin flex-box{
+@mixin flex-box($direction,$space){
     display: flex;
-    justify-content: center;
+    justify-content: $space;
     align-items: center;
+    flex-direction: $direction;
 }
 .container{
-    @include flex-box();
+    @include flex-box(row-reverse,space-around);
     width: 600px;
     height:400px;
     background-color:silver;
+    
     .box{
         width:60px;
         height:60px;
