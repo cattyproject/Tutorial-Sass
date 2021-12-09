@@ -1,5 +1,32 @@
-ul{
-    margin: 0;
+//mixin
+@mixin inline-list{
+    margin:0;
     padding: 0;
     list-style: none;
+
+    li{
+        display: inline-block;
+    }
+}
+
+.header ul{
+    @include inline-list();
+    li{
+        background-color:black;
+        a{
+            color:white;
+            padding: 1em;
+
+        }
+    }
+}
+.footer ul{
+    @include inline-list();
+    li{
+        padding: 0.4em;
+        background-color: salmon;
+        a{
+            color:white;
+        }
+    }
 }
