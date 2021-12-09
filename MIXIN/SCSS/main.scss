@@ -30,3 +30,23 @@
         }
     }
 }
+
+//arguments pada mixin
+@mixin flex-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    @include flex-box();
+    width: 600px;
+    height:400px;
+    background-color:silver;
+    .box{
+        width:60px;
+        height:60px;
+        background-color: tan;
+        text-align: center;
+        line-height: 60px;
+    }
+}
