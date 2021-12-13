@@ -1,0 +1,5 @@
+@mixin profile-pic($size,$circle:false){
+    width:$size;
+    border:5px solid white;
+    box-shadow: 1px 1px 3px rgba($color:#000, $alpha: 0.3);
+}
