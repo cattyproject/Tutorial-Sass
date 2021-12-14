@@ -78,3 +78,19 @@ $dark-text:#ddd;
        }
    }
 }
+//each
+$social-color:(
+    youtube:red,
+    facebook:blue,
+    instagram:salmon,
+);
+.socials{
+    font-size: 2em;
+    font-family: arial;
+    font-weight:bold;
+    @each $social,$color in $social-color {
+        .#{$social}{
+            color:$color
+        }
+    }
+}

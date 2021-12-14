@@ -87,4 +87,22 @@ body {
   padding: 4px;
   background-color: #fdd9d5;
 }
+
+.socials {
+  font-size: 2em;
+  font-family: arial;
+  font-weight: bold;
+}
+
+.socials .youtube {
+  color: red;
+}
+
+.socials .facebook {
+  color: blue;
+}
+
+.socials .instagram {
+  color: salmon;
+}
 /*# sourceMappingURL=main.css.map */
