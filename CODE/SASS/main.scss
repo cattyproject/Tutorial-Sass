@@ -1,36 +1,5 @@
-//CSS variable
-// .root{
-//     --primary-color: blue;
-//     --secondary-color:pink;
-//     --color-text:black;
-// }
-// body{
-//     background-color: var(--primary-color);
-// }
-// h1{
-//     color:var(--color-text)
-// }
-//SCSS variabel
-// $primary-color:blue;
-// $secondary-color:pink;
-// $color-text: white;
-
-// body{
-//     background-color: $primary-color;
-// }
-// h1{
-//     color:$color-text;
-// }
-
-//map
-// $alert-danger:red;
-// $alert-success:green;
-// $alert-warning:yellow;
-$alert:(
-    'danger':red,
-    'success':green,
-    'warning':orange
-);
+//base
+$warna-dasar:salmon;
 h1{
-    color: map-get($alert,danger );
+    
 }

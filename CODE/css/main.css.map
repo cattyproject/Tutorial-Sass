@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAiCA,AAAA,EAAE,CAAA;EACE,KAAK,EALI,GAAG;CAMf",
+    "mappings": "",
     "sources": [
         "../SASS/main.scss"
     ],
