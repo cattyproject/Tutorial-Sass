@@ -1,3 +1,6 @@
+body{
+    min-height: 1000px;
+}
 //if
 @mixin profile-pic($size,$circle:false){
     width:$size;
@@ -34,3 +37,5 @@ $dark-text:#ddd;
 .nav{
     @include color-mode($light-mode:false);
 }
+
+//else if
