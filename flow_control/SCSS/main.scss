@@ -39,3 +39,29 @@ $dark-text:#ddd;
 }
 
 //else if
+@mixin triangle($size,$color,$direction){
+    width:0;
+    height:0;
+    background-color: transparent;
+    border-color:transparent;
+    border-style: solid;
+    border-width: $size/2;
+
+    @if $direction == up{
+        border-bottom-color: $color;
+
+    }
+    @else if $direction == right{
+        border-left-color: $color;
+    }
+    @else if $direction == down{
+
+        border-top-color: $color;
+    }
+    @else{
+        border-right-color: $color;
+    }
+}
+.right{
+    @include triangle(2em,black ,right )
+}
